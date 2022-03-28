@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    
+}
+
+.header{
+    font-size: 35px;
+    width: 100%;
+    font-family: 'Bungee', cursive;
+    font-family: 'Pacifico', cursive;
+}
+.footer{
+    background-color: orange;
+    font-size: 25px;
+    bottom: 0;
+    position: fixed;
+    margin-left: 730px;
+    color: white;
+    font-family: 'Bungee', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+canvas{
+    border:5px red ridge;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 80px;
+
+}
+@keyframes example{
+    from{border:5px red ridge; box-shadow:1px 1px 38px red;}
+    to{border:8px pink ridge; box-shadow:1px 1px 38px pink;}
+}
